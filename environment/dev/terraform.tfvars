@@ -14,7 +14,7 @@ rg = {
 
 
   "rg2" = {
-    name       = "test2-rg"
+    name       = "abhi2-rg"
     location   = "North Europe"
     managed_by = "terraform"
     tags = {
@@ -184,7 +184,7 @@ vms = {
     location            = "centralindia"
     vm_size             = "Standard_D2s_v3"
     admin_username      = "vm1"
-    admin_password      = "Sunny@12345"
+    admin_password      = "abhi@12345"
 
     os_disk = {
       "disk1" = {
@@ -228,7 +228,7 @@ vms = {
     location            = "centralindia"
     vm_size             = "Standard_D2s_v3"
     admin_username      = "vm2"
-    admin_password      = "Sunny@12345"
+    admin_password      = "Abhi@12345"
 
     os_disk = {
       "disk1" = {
@@ -407,7 +407,7 @@ datasubnet = {
 
 servers = {
   server1 = {
-    name                         = "testserver98432"
+    name                         = "testserver676767"
     resource_group_name          = "abhi-rg"
     location                     = "centralindia"
     version                      = "12.0"
@@ -428,7 +428,7 @@ servers = {
 databases = {
   db1 = {
     name                = "test-db"
-    server_name         = "testserver98432"
+    server_name         = "testserver676767"
     resource_group_name = "abhi-rg"
     collation           = "SQL_Latin1_General_CP1_CI_AS"
     license_type        = "LicenseIncluded"
